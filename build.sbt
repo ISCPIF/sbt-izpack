@@ -11,7 +11,7 @@
 
 name := "sbt-izpack"
 
-version := "0.3.4.2"
+version := "0.3.4.3"
 
 sbtPlugin := true
 
@@ -41,7 +41,7 @@ seq(lsSettings :_*)
 
 // External deps
 libraryDependencies ++= Seq(
-  "org.codehaus.izpack" % "izpack-standalone-compiler" % "4.3.4" % "compile",
+  "org.codehaus.izpack" % "izpack-standalone-compiler" % "5.0.0-beta11" % "compile",
   "org.yaml" % "snakeyaml" % "1.9"
 )
 
